@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura semantica</title>
+
+    <!-- 
+    <style type="text/css">
+        li{
+            background-color: peru;
+        }
+    </style>
+    -->
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <!-- HTML semantico  
+        nav -> navegar 
+        header -> encabezado
+        main -> contenido principal
+        aside -> contenido relacionado 
+        section -> delimita secciones del contenido principal
+        article -> agrupa informacion en una seccion 
+        footer -> informacion sobre la plataforma / pie de pagina
+    -->
+
+    <nav style="background-color: aqua;">
+        <!-- lista desordenada -->
+        <ul>
+            <!-- list items /elemento de lista -->
+            <li>
+                <!-- anchor -> genera un enlace -->
+                <a href="./index.html">Home</a>
+            </li>
+            <li> 
+                <a href="./pages/preguntas-frecuentes.html"> Preguntas frecuentes </a>
+            </li>
+            <li>
+                <a href="https://developer.mozilla.org" target="_blank"> MDN </a>
+            </li>
+            <li>elemento 4</li>
+        </ul>
+
+        <!-- 
+        Lista ordenada que contiene elementos de lista 
+        <ol>
+            <li>elemento 1</li>
+            <li>elemento 2</li>
+            <li>elemento 3</li>
+            <li>elemento 4</li>
+        </ol>
+        -->
+    </nav>
+
+    <div class="cuadrado">1</div>
+    <div class="cuadrado color-tomato">2</div>
+    <div class="color-tomato">3</div>
+    <div id="circulo-azul">4</div>
+</body>
+</html>

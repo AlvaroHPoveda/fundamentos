@@ -1,0 +1,93 @@
+
+<!--
+    COMENTARIO 
+    <etiqueta atributo="valor"> CONTENIDO </etiqueta>
+
+    
+    self closing
+    <etiqueta>
+    <br>
+    <hr>
+    
+    
+    SEO
+    Accesibilidad
+-->
+
+<!DOCTYPE html> <!-- Declaracion de tipo de documento -->
+<html lang="es"> <!-- Delimita el documento html  -->
+<!-- Informacion importante para el correcto funcionamiento de la pagina web  -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera pagina web</title>
+</head>
+<!-- Todo el contenido que queremos visualizar en el navegador  -->
+<body>
+    <h1> Esta es mi primera pagina web </h1>
+    <h2> Este es un h2 </h2>
+    <h3> Este es un h3 </h3>
+    <h4> Este es un h4 </h4>
+    <h5> Este es un h5 </h5>
+    <h6> Este es un h6 </h6>
+
+    <p> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Aperiam deleniti voluptate autem explicabo et quo dolor provident 
+        cupiditate eum!
+        <br> 
+        Vitae obcaecati vel corrupti eaque harum natus ratione quam quaerat placeat? 
+    </p>
+    <!-- 
+        ELEMENTOS DE BLOQUE
+        Elementos que ocupan todo el espacio disponible a lo ancho, 
+        sin importar que su contenido no lo requiera
+        Se apilan
+    -->
+    <p> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Debitis nobis rem modi voluptatem, exercitationem odio maiores possimus neque. 
+        Perspiciatis enim quaerat quidem esse nemo eaque error illo voluptas saepe ex. 
+    </p>
+
+    <!-- 
+        ELEMENTOS DE LINEA
+        Elementos que solo ocupan el espacio necesario para mostrar su contenido
+        Se ven unos a lado de otros
+    -->
+    <span> Soy un span </span>
+    <span> Soy otro span  </span>
+
+    <p>Soy un parrafo <span>Soy un span dentro del parrafo</span> </p>
+
+    <img  width="600" src="https://www.purina-latam.com/sites/g/files/auxxlc391/files/purina-brand-que-saber-de-los-gatitos-bebes.jpg" alt="Gatitos bebés">
+    <img src="./img/fingers.png" alt="Rick and Morty enseñando el dedo medio">
+
+    <form action="">
+        <label for="name"> Nombre </label>
+        <input type="text" id="name" minlength="10" maxlength="15" placeholder="Brenda Gonzalez" required autocomplete="off">
+        <br>
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" placeholder="contraseña" required autocomplete="off">
+        <br>
+        <label for="check">Aceptar condiciones y servicios</label>
+        <input type="checkbox" id="check" required>
+        <br>
+        <label for="input-email">Email</label>
+        <input type="email" id="input-email" placeholder="ej: brenda@gmail.com" required autocomplete="off">
+        <br>
+        <input type="color" name="" id="">
+        <br>
+        <input type="date" name="" id="">
+        <br>
+        <input type="file" name="" id="">
+        <br>
+        <input type="number" name="" id="">
+        <br>
+        <input type="range" name="" id="">
+        <br>
+        <input type="submit" value="Enviar formulario">
+    </form>
+</body>
+</html>

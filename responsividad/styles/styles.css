@@ -1,0 +1,84 @@
+
+/*
+    MOBILE FIRST
+    Metodología de maquetado que le da prioridad a las resoluciones moviles
+*/
+
+/*@media only screen and ( min-width: 600px ) {
+    selector{
+        propiedad:valor
+    }
+}
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+
+}
+input#hamburguesa-icono{
+    visibility: hidden;
+}
+
+input#hamburguesa-icono ~ ul{
+    background-color: rgb(185, 128, 185);
+    position: absolute;
+    width: 100%;
+    right: 100%;
+    height: 100%;
+    list-style: none;
+    transition: all 300ms linear;
+}
+
+input#hamburguesa-icono:checked ~ ul{
+    right: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+main>section{
+    background-color: thistle;
+    width: 100%;
+} 
+main>aside{
+    background-color: violet;
+    width: 100%;
+}
+
+@media only screen and ( min-width: 768px ){
+
+    label{
+        display: none;
+    }
+
+    input#hamburguesa-icono ~ ul{
+        position: static;
+        background-color: transparent;
+        display: flex;
+    }
+    
+    input#hamburguesa-icono ~ ul > li{
+        padding: 0 15px 5px 15px;
+    }
+
+    main{
+        flex-direction: row;
+    }
+
+    main>section{
+        width:75%;
+    }
+    main>aside{
+        width: 25%;
+    }
+}

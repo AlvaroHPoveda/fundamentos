@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*section{
+    border: 2px dashed black;
+    width: 500px;
+    margin: 30px auto;
+    height: 400px;
+    
+}*/
+/*
+div{
+    padding: 30px 20px;
+    background-color: #813988cc;
+    text-align: center;
+}
+
+#elemento{
+    transform: translate(50%, 3rem);
+    transform: translateX(50px);
+    transform: translateY( -50% );
+    transform: rotate(45deg);
+    transform: scale(200%);
+    transform: skew(45deg, 180deg);
+    
+
+    transform: translate(30px, 4rem) rotate(90deg) scale(.5);
+}
+*/
+
+/*
+div{
+    width: 150px;
+    height: 150px;
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 1rem;
+    line-height: 120px;
+    position: relative;
+}
+
+div#uno{
+    background-color: rgba(205, 134, 63, 0.952);
+    top: 30px;
+    left: 100px;
+    z-index: 30;
+}
+div#dos{
+    background-color: rgba(63, 108, 205, 0.932);
+    top: -20px;
+    left: 130px;
+    z-index: 40;
+}
+div#tres{
+    background-color: rgba(205, 63, 87, 0.959);
+    top: -60px;
+    left: 150px;
+    z-index: 10;
+}*/
+
+body {
+  background-color: #f3f0f0;
+  font-family: "Roboto", sans-serif;
+}
+
+article {
+  width: 25%;
+  margin: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 10px 10px 20px #bebebe;
+  text-align: center;
+  transition: all 0.1s linear;
+}
+article h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+article button {
+  width: 75%;
+  margin: 10px auto;
+  background-color: rgb(56, 115, 170);
+  border-radius: 12px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  color: white;
+}
+
+article:hover {
+  transform: scale(0.95);
+  box-shadow: 10px 10px 10px #b4b3b3;
+  cursor: pointer;
+}
+
+article p::after {
+  content: "SOY UN AFTER";
+  background-color: tomato;
+  padding: 10px;
+}
+
+/*article p::before{
+    content: "$";
+    font-size: 1rem;
+    color: violet;
+}*/
+
+article p::first-letter {
+  color: green;
+  font-size: 2rem;
+}

@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0; 
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: 
+    #eee;
+}
+
+nav{
+    background-color: #ffffff;
+    height: 80px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 10px 10px 20px rgb(207, 203, 203);
+}
+
+nav>ul{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+} 
+
+nav>ul>li{
+    list-style: none;
+    padding: 5px 10px;
+    border-bottom: 5px solid transparent;
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+    color: rgb(46, 45, 45);
+    font-size: 1.25rem;
+}
+
+li:hover{
+    cursor: pointer;
+    border-bottom-color: #32C1CD;
+    transition: all 0.5s linear;
+}
+
+li:hover i{
+    color: #32C1CD;
+}
+
+img{
+    width: 50px;
+}
+
+section{
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    background-image: url("https://picsum.photos/500");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
